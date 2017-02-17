@@ -1,0 +1,109 @@
+
+/*SECTION-ONE HOME PAGE*/
+
+.whole-section-one{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  border: black solid;
+}
+
+..header-top {
+	background: rgba(0, 47, 77, .3);
+	height: 70px;
+	width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whole-section-one-container{
+  height: 100vw;
+  width: 100vw;
+  border: red solid;
+  display: flex;
+}
+
+.three-piece-part-one{
+height: 100%;
+width: 40vw;
+border: blue solid;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+}
+
+.three-piece-part-two{
+  height: 100%;
+  width: 20vw;
+  border: yellow solid;
+}
+
+.three-piece-part-three{
+  height: 100%;
+  width: 40vw;
+  border: green solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.circle-container-one{
+  height: 200px;
+  width: 200px;
+  border: blue solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.circle-container-two{
+  height: 200px;
+  width: 200px;
+  border: blue solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.circle-container-three{
+  height: 200px;
+  width: 200px;
+  border: blue solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.circle-one{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: green solid;
+}
+
+.circle-two{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: green solid;
+}
+
+.circle-three{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: green solid;
+}
+
+svg{
+  background-color: green;
+  height: 100%;
+  width: 100%;
+}

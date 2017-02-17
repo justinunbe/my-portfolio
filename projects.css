@@ -1,0 +1,263 @@
+.section-two-page-container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  border: blue solid;
+}
+
+.internet-and-description-container-one{
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  border: red solid;
+}
+
+.internet-page-container-one{
+height: 100%;
+width: 50vw;
+display: flex;
+justify-content: center;
+align-items: center;
+border: green solid;
+}
+
+.internet-page-description-container-one{
+height: 100%;
+width: 50vw;
+border: green solid;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.internet-and-description-container-two{
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  border: red solid;
+}
+
+.internet-page-container-two{
+height: 100%;
+width: 50vw;
+border: green solid;
+}
+
+.internet-page-description-container-two{
+height: 100%;
+width: 50vw;
+border: green solid;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+/*INTERNET BOX ONE*/
+
+.internet-full-box-one{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: blue solid;
+}
+
+.internt-top-one{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: yellow solid;
+}
+
+.button-web-container-one{
+  height: 85%;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  border: blue solid;
+}
+.internt-bottom-one{
+  height: 100%;
+  width: 100%;
+  border: black solid;
+  background-image:url("pics/apple-site-clone.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.internet-buttons-container-one{
+  height: 100%;
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;;
+  align-items: center;
+  border: black solid;
+}
+
+.web-address-container-one{
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.internet-button-one{
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background: red;
+  border: black solid 1px;
+}
+
+.internet-button-two{
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background: yellow;
+  border: black solid 1px;
+}
+
+.internet-button-three{
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background: green;
+  border: black solid 1px;
+}
+
+
+/*INTERNET BOX TWO*/
+
+.internet-full-box-one{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: blue solid;
+}
+
+.internt-top-one{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: yellow solid;
+}
+
+.button-web-container-one{
+  height: 85%;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  border: blue solid;
+}
+.internt-bottom-one{
+  height: 100%;
+  width: 100%;
+  border: black solid;
+  background-image:url("pics/apple-site-clone.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#internet-pic-two{
+background-image:url("pics/quencha-site-clone.png");
+}
+
+#internet-pic-three{
+background-image:url("pics/flappy-clone.png");
+}
+
+#internet-pic-four{
+background-image:url("pics/group-project.png");
+}
+
+.internet-buttons-container-one{
+  height: 100%;
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;;
+  align-items: center;
+  border: black solid;
+}
+
+.web-address-container-one{
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.internet-button-one{
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background: red;
+  border: black solid 1px;
+}
+
+.internet-button-two{
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background: yellow;
+  border: black solid 1px;
+}
+
+.internet-button-three{
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background: green;
+  border: black solid 1px;
+}
+
+
+/*DESCRIPTION BOX ONE*/
+
+.discription-container-one{
+height: 80%;
+width: 80%;
+display: flex;
+flex-direction: column;
+border: red solid;
+}
+.discription-title-one{
+height: 30%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+border: blue solid;
+}
+.the-description{
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: blue solid;
+}
+.project-link-one{
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: blue solid;
+}
