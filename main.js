@@ -18,7 +18,7 @@ $('#fullpage').fullpage({
   sectionSelector: '.vertical-scrolling',
   slideSelector: '.horizontal-scrolling',
   navigation: false,
-  slidesNavigation: true,
+  slidesNavigation: false,
   controlArrows: false,
   verticalCentered: false,
   anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection'],
@@ -49,13 +49,6 @@ $('#fullpage').fullpage({
       $(this).css('background', 'white');
       $(this).find('h2').css('color', 'black');
       $(this).find('h3').css('color', 'black');
-      $(this).find('p').css(
-        {
-          'color': 'black',
-          'opacity': .6
-          // 'transform': 'translateY(0)'
-        }
-      );
     }
   },
 
@@ -69,3 +62,11 @@ $('#fullpage').fullpage({
     }
   }
 });
+
+
+$(document).ready(function(){
+      $('.slick-slider').slick({
+        autoplay: true,
+        autoplaySpeed: 1500
+      });
+    });

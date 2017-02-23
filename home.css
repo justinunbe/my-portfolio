@@ -1,60 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+}
+/*color scheme*/
+#CAEBF2
+#A9A9A9
+#FF3B3F
+#EFEFEF
+#FFCE00
+
 
 /*SECTION-ONE HOME PAGE*/
-
 .whole-section-one{
-  height: 100vh;
   width: 100vw;
+  height: 50px;
   display: flex;
   flex-direction: column;
-  border: black solid;
 }
 
-..header-top {
-	background: rgba(0, 47, 77, .3);
-	height: 70px;
-	width: 100%;
+
+/*nav logo*/
+.first-section-div{
+  width: 100%;
+  height: 35px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  background-color: #A9A9A9;
+  font-weight: 300;
+  font-size: 25px;
+  position: relative;
+  z-index: 100;
+  color: white;
+}
+
+.nav-logo-container{
+  height: 35px;
+  width: 760px;
+  background-color: #A9A9A9;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.nav-links-container{
+  height: 35px;
+  width: 470px;
+  background-color: #A9A9A9;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 
-.whole-section-one-container{
-  height: 100vw;
-  width: 100vw;
-  border: red solid;
+/*text area*/
+.second-section-div{
+  width: 100%;
+  height: 60vh;
+  background-color: #CAEBF2;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  position: relative;
 }
 
-.three-piece-part-one{
-height: 100%;
-width: 40vw;
-border: blue solid;
+.pic-circle-filter{
+  width: 1000px;
+  height: 1000px;
+  border-radius: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(pics/skyscrapers.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*filter: grayscale(100%);*/
+  opacity: 1;
+  z-index: 1;
+  position: relative;
+}
+
+.pic-circle-filter:after {
+    content: "";
+    display: block;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(202,235,242,1) 70%,rgba(202,235,242,1) 110%);
+    border-radius: 50%;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.filter-cover{
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  opacity: .7;
+  background-color: #CAEBF2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.big-text-container{
+height: 300px;
+width: 500px;
+font-weight: 500;
+font-size: 80px;
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 30px;
+z-index: 20;
+opacity: 1;
 }
 
-.three-piece-part-two{
-  height: 100%;
-  width: 20vw;
-  border: yellow solid;
+.sleek-span{
+  font-weight: 200;
 }
 
-.three-piece-part-three{
-  height: 100%;
-  width: 40vw;
-  border: green solid;
+.modern-span{
+font-weight: 200;
+color: #FF3B3F;
+}
+
+/*triangle area*/
+.third-section-div{
+  width: 100%;
+  height: 13vh;
+  background-color: #CAEBF2;
+  opacity: 1;
+}
+
+
+/*awesome font code*/
+.awe-color{
+  color: white;
+}
+
+
+/*Code for SVG Triangle*/
+svg{
+  fill: #EFEFEF;
+  z-index: 90;
+  position: relative;
+}
+
+
+/*Code for Buttons*/
+.fourth-section-div{
+  width: 100%;
+  height: 24.25vh;
+  font-weight: 200;
+  background-color: #EFEFEF;
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
-  align-items: flex-end;
+  align-items: center;
+  position: relative;
+  z-index: 90;
 }
 
 .circle-container-one{
-  height: 200px;
-  width: 200px;
-  border: blue solid;
+  height: 120px;
+  width: 110px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,9 +171,8 @@ font-size: 30px;
 }
 
 .circle-container-two{
-  height: 200px;
-  width: 200px;
-  border: blue solid;
+  height: 120px;
+  width: 110px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,9 +180,8 @@ font-size: 30px;
 }
 
 .circle-container-three{
-  height: 200px;
-  width: 200px;
-  border: blue solid;
+  height: 120px;
+  width: 110px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,25 +192,27 @@ font-size: 30px;
   height: 100px;
   width: 100px;
   border-radius: 50px;
-  border: green solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF3B3F;
 }
 
 .circle-two{
   height: 100px;
   width: 100px;
   border-radius: 50px;
-  border: green solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF3B3F;
 }
 
 .circle-three{
   height: 100px;
   width: 100px;
   border-radius: 50px;
-  border: green solid;
-}
-
-svg{
-  background-color: green;
-  height: 100%;
-  width: 100%;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF3B3F;
