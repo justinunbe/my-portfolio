@@ -67,6 +67,7 @@ $('#fullpage').fullpage({
 $(document).ready(function(){
       $('.slick-slider').slick({
         autoplay: true,
+        arrows: false,
         autoplaySpeed: 1500
       });
     });
