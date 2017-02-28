@@ -4,41 +4,60 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 200;
 }
-/*color scheme*/
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*light and happy*/
 #CAEBF2
 #A9A9A9
 #FF3B3F
 #EFEFEF
-#FFCE00
 
+/*Bold and intense*/
+#18121E
+#233237
+#984B43
+#EAC67A
 
+/*extra-area*/
+
+.extra-room-slide-one{
+  width: 100vw;
+  height: 100vw;
+  background-color: gray;
+}
 /*SECTION-ONE HOME PAGE*/
 .whole-section-one{
-  width: 100vw;
-  height: 50px;
+  max-width: 1680px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 
-/*nav logo*/
+/*nav area*/
 .first-section-div{
-  width: 100%;
+  max-width: 1680px;
   height: 35px;
   display: flex;
   flex-direction: row;
-  background-color: #A9A9A9;
+  background-color: #CAEBF2;
   font-weight: 300;
-  font-size: 25px;
+  font-size: 30px;
   position: relative;
   z-index: 100;
   color: white;
+  opacity: 1;
 }
 
 .nav-logo-container{
   height: 35px;
   width: 760px;
-  background-color: #A9A9A9;
+
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -48,7 +67,7 @@ html {
 .nav-links-container{
   height: 35px;
   width: 470px;
-  background-color: #A9A9A9;
+
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -56,7 +75,7 @@ html {
 
 /*text area*/
 .second-section-div{
-  width: 100%;
+  max-width: 1680px;
   height: 60vh;
   background-color: #CAEBF2;
   display: flex;
@@ -67,8 +86,8 @@ html {
 }
 
 .pic-circle-filter{
-  width: 1000px;
-  height: 1000px;
+  width: 1400px;
+  height: 1400px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -127,7 +146,7 @@ color: #FF3B3F;
 
 /*triangle area*/
 .third-section-div{
-  width: 100%;
+  max-width: 1680px;
   height: 13vh;
   background-color: #CAEBF2;
   opacity: 1;
@@ -150,7 +169,7 @@ svg{
 
 /*Code for Buttons*/
 .fourth-section-div{
-  width: 100%;
+  max-width: 1680px;
   height: 24.25vh;
   font-weight: 200;
   background-color: white;

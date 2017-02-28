@@ -1,10 +1,17 @@
 /*Full Page*/
-.all-page-three{
+
+.extra-width-page-three{
   height: 100vh;
   width: 100vw;
+  background-color: gray;
+}
+.all-page-three{
+  height: 100vh;
+  max-width: 1680px;
   display: flex;
   flex-direction: column;
   background-color: white;
+  margin: auto;
 }
 
 
@@ -12,7 +19,7 @@
 /*about me title*/
 .about-me-title{
   height: 150px;
-  width: 100%;
+  max-width: 1680px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,11 +32,12 @@
 /*about me info area*/
 .about-me-info-area{
   height: 25vh;
-  width: 100%;
+  max-width: 1680px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   padding-right: 100px;
+  padding-left: 100px;
 }
 
 .section-one-paragraph{
@@ -82,11 +90,12 @@ background-size: cover;
 /*about us info area*/
 .about-us-info-area{
   height: 25vh;
-  width: 100%;
+  max-width: 1680px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   padding-left: 100px;
+  padding-right: 100px;
 }
 
 .section-two-paragraph{
@@ -136,11 +145,12 @@ background-size: cover;
 /*skills area*/
 .skills-info-area{
   height: 25vh;
-  width: 100%;
+  max-width: 1680px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   padding-right: 100px;
+  padding-left: 100px;
 }
 
 .section-three-paragraph{
@@ -207,13 +217,12 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  /*margin-top: -80px;*/
 }
 
 .slide-one{
   width: 300px;
   height: 200px;
-  background-image: url("pics/html5-logo.png");
+  background-image: url("pics/HTML5_1Color_Black.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -221,7 +230,7 @@ align-items: center;
 .slide-two{
   width: 150px;
   height: 200px;
-  background-image: url("pics/css3.png");
+  background-image: url("pics/css3 no text.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -229,7 +238,7 @@ align-items: center;
 .slide-three{
   width: 150px;
   height: 200px;
-  background-image: url("pics/js-logo.png");
+  background-image: url("pics/js last try.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -245,7 +254,7 @@ align-items: center;
 .slide-five{
   width: 150px;
   height: 200px;
-  background-image: url("pics/angular-icon.svg");
+  background-image: url("pics/angular no text.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -253,7 +262,279 @@ align-items: center;
 .slide-six{
   width: 150px;
   height: 200px;
-  background-image: url("pics/git.svg");
+  background-image: url("pics/git color.png");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+/*Media Queries*/
+@media only screen and (max-width: 1150px) {
+/*circle*/
+  .section-one-circle-pic-container{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url("pics/about-me.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+  .section-two-circle-pic-container{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url("pics/about-us.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+  .slick-slider{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/*paragraph*/
+  .section-one-p-one{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    line-height: 26px;
+  }
+  .section-one-p-two{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .section-two-p-one{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    line-height: 26px;
+  }
+  .section-two-p-two{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .section-three-p-one{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    line-height: 26px;
+  }
+  .section-three-p-two{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+/*circle*/
+  .section-one-circle-pic-container{
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background-image: url("pics/about-me.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+  .section-two-circle-pic-container{
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background-image: url("pics/about-us.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+  .slick-slider{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*paragraph*/
+  .section-one-p-one{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    line-height: 22px;
+  }
+  .section-one-p-two{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .section-two-p-one{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    line-height: 22px;
+  }
+  .section-two-p-two{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .section-three-p-one{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    line-height: 22px;
+  }
+  .section-three-p-two{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+ /*circle*/
+  .section-one-circle-pic-container{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url("pics/about-me.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+  .section-two-circle-pic-container{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url("pics/about-us.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+  .slick-slider{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*paragraph*/
+  .section-one-p-one{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    line-height: 18px;
+  }
+  .section-one-p-two{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .section-two-p-one{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    line-height: 18px;
+  }
+  .section-two-p-two{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .section-three-p-one{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    line-height: 18px;
+  }
+  .section-three-p-two{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
