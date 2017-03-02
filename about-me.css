@@ -25,19 +25,24 @@
   align-items: center;
   font-size: 60px;
   font-weight: 200;
+  display: none;
 }
 
 
 
 /*about me info area*/
 .about-me-info-area{
-  height: 25vh;
+  height: 33vh;
   max-width: 1280px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   padding-right: 100px;
   padding-left: 100px;
+  padding-top: 50px;
+  background-color: white;
+  position: relative;
+  z-index: 6;
 }
 
 .section-one-paragraph{
@@ -89,13 +94,16 @@ background-size: cover;
 
 /*about us info area*/
 .about-us-info-area{
-  height: 25vh;
+  height: 33vh;
   max-width: 1280px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   padding-left: 100px;
   padding-right: 100px;
+  background-color: white;
+  position: relative;
+  z-index: 5;
 }
 
 .section-two-paragraph{
@@ -144,13 +152,16 @@ background-size: cover;
 
 /*skills area*/
 .skills-info-area{
-  height: 25vh;
+  height: 33vh;
   max-width: 1280px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   padding-right: 100px;
   padding-left: 100px;
+  background-color: white;
+  position: relative;
+  z-index: 5;
 }
 
 .section-three-paragraph{
@@ -190,12 +201,15 @@ background-size: cover;
 
 /*nav area*/
 .three-nav-container{
-  height: 200px;
+  height: 140px;
   width: 100%;
   display: flex;
   justify-content: space-around;;
   align-items: center;
   flex-direction: row;
+  position: relative;
+  z-index: 5;
+  background-color: white;
 }
 
 .section-three-circle-pic-container{
@@ -277,6 +291,97 @@ align-items: center;
 
 
 /*Media Queries*/
+
+@media only screen and (max-height: 950px) {
+
+  .section-one-circle-pic-container{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url("pics/about-me.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+  .section-two-circle-pic-container{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url("pics/about-us.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+  .slick-slider{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*paragraph*/
+  .section-one-p-one{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    line-height: 26px;
+  }
+  .section-one-p-two{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .section-two-p-one{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    line-height: 26px;
+  }
+  .section-two-p-two{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .section-three-p-one{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    line-height: 26px;
+  }
+  .section-three-p-two{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+}
+
+
+
 @media only screen and (max-width: 1150px) {
 /*circle*/
   .section-one-circle-pic-container{

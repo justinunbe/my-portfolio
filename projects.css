@@ -6,6 +6,11 @@
 #FFCE00
 */
 
+/*hide and show area*/
+#hide-horizontal-scroll{
+display: none;
+}
+
 
 /*Main Page Layout*/
 .extra-room-slide-two{
@@ -38,7 +43,6 @@ width: 75vw;
 display: flex;
 justify-content: flex-end;
 align-items: center;
-border: red solid;
 }
 
 /*quadrant two*/
@@ -56,7 +60,6 @@ align-items: center;
   max-width: 1280px;
   display: flex;
   flex-direction: row;
-  border: green solid;
 }
 
 /*quadrant four*/
@@ -65,7 +68,6 @@ height: 100%;
 width: 75vw;
 display: flex;
 align-items: center;
-border: red solid;
 }
 
 /*quadrant three*/
@@ -75,7 +77,6 @@ width: 50vw;
 display: flex;
 justify-content: center;
 align-items: center;
-border: blue solid;
 }
 
 
@@ -167,11 +168,11 @@ border: blue solid;
 
 /*INTERNET BOX TWO*/
 
-#internet-pic-two{
+#internet-pic-three{
 background-image:url("pics/quencha-site-clone.png");
 }
 
-#internet-pic-three{
+#internet-pic-two{
 background-image:url("pics/flappy-clone.png");
 }
 
@@ -303,63 +304,56 @@ font-size: 50px;
 
 /*Height Media Queries*/
 
-@media only screen and (max-height: 1050px) {
-
-  .internet-full-box-one{
-    height: 350px;
-    width: 586px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .discription-container-one{
-  height: 40%;
-  width: 304px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  }
-
-  .discription-title-one{
-  font-size: 44px;
-  }
-
-  .the-description{
-    line-height: 24px;
-  }
-}
-
-
 @media only screen and (max-height: 950px) {
 
+  #hide-horizontal-scroll{
+  display: block;
+  }
+
+  /*bottom horizontal*/
+  .internet-and-description-container-two{
+    display: none;
+  }
+
+  /*top-horizontal*/
+  .internet-and-description-container-one{
+    height: 100vh;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+  }
+    /*description box*/
   .discription-container-one{
-  height: 50%;
-  width: 304px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    height: 40%;
+    width: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .discription-title-one{
-  font-size: 38px;
+    font-size: 44px;
   }
 
   .the-description{
-    line-height: 22px;
-    font-size: 17px;
+      line-height: 24px;
+      font-size: 23px;
   }
-}
 
-@media only screen and (max-height: 860px) {
-
-  .internet-full-box-one{
-    height: 300px;
-    width: 502px;
+  /*project link*/
+  .project-link-one{
+    height:15%;
+    width: 200px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    background: #A9A9A9;
   }
-  
 }
+
 
 
 /*Width Media Queries*/
