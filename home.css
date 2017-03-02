@@ -41,17 +41,13 @@ a {
 
 /*nav area*/
 .first-section-div{
-  max-width: 1280px;
-  height: 35px;
-  display: flex;
-  flex-direction: row;
-  background-color: #CAEBF2;
-  font-weight: 300;
-  font-size: 30px;
-  position: relative;
-  z-index: 100;
-  color: white;
-  opacity: 1;
+position: relative;
+top: 0px;
+left: 0px;
+align-self: flex-start;
+width: 300px;
+color: white;
+font-size: 30px;
 }
 
 .nav-logo-container{
@@ -170,7 +166,7 @@ svg{
 /*Code for Buttons*/
 .fourth-section-div{
   max-width: 1280px;
-  height: 24.25vh;
+  height: 30vh;
   font-weight: 200;
   background-color: white;
   display: flex;

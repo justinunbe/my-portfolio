@@ -380,7 +380,92 @@ align-items: center;
 
 }
 
+@media only screen and (max-height: 800px) {
 
+  .section-one-circle-pic-container{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url("pics/about-me.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+  .section-two-circle-pic-container{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url("pics/about-us.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+  .slick-slider{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*paragraph*/
+  .section-one-p-one{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    line-height: 18px;
+  }
+  .section-one-p-two{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .section-two-p-one{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    line-height: 18px;
+  }
+  .section-two-p-two{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .section-three-p-one{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    line-height: 18px;
+  }
+  .section-three-p-two{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+}
 
 @media only screen and (max-width: 1150px) {
 /*circle*/

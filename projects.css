@@ -295,10 +295,18 @@ font-size: 50px;
   margin-bottom: 13px;
 }
 
+.small-height-title{
+max-width: 1280px;
+height: 50px;
+display: none;
+font-size: 45px;
+}
 
-
-
-
+#small-height-page-two{
+  align-self: flex-end;
+  margin-bottom: 40px;
+  display: none;
+}
 
 /*Media Queries   100 X 167*/
 
@@ -322,6 +330,23 @@ font-size: 50px;
     display: flex;
     flex-direction: row;
   }
+
+  .small-height-title{
+  max-width: 1280px;
+  height: 70px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  }
+
+  #small-height-page-two{
+    align-self: flex-end;
+    margin-bottom: 40px;
+    display: block;
+  }
+
     /*description box*/
   .discription-container-one{
     height: 40%;
@@ -352,6 +377,8 @@ font-size: 50px;
     border-radius: 5px;
     background: #A9A9A9;
   }
+
+
 }
 
 
