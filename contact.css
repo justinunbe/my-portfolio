@@ -7,7 +7,7 @@
 }
 .all-page-four{
   height: 100vh;
-  max-width: 1680px;
+  max-width: 1280px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@
 /*Title Container*/
 .contact-container{
   height: 300px;
-  max-width: 1680px;
+  max-width: 1280px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +36,7 @@ z-index: 20;
 /*contact info container*/
 .contact-info-container{
   height: 70%;
-  max-width: 1680px;
+  max-width: 1280px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,7 +96,7 @@ font-size: 40px;
 /*bottom nav container*/
 .bottom-nav-container{
   height: 145px;
-  max-width: 1680px;
+  max-width: 1280px;
   display: flex;
   justify-content: space-around;
   flex-direction: row;

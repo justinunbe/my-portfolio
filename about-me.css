@@ -7,7 +7,7 @@
 }
 .all-page-three{
   height: 100vh;
-  max-width: 1680px;
+  max-width: 1280px;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -19,7 +19,7 @@
 /*about me title*/
 .about-me-title{
   height: 150px;
-  max-width: 1680px;
+  max-width: 1280px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@
 /*about me info area*/
 .about-me-info-area{
   height: 25vh;
-  max-width: 1680px;
+  max-width: 1280px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -90,7 +90,7 @@ background-size: cover;
 /*about us info area*/
 .about-us-info-area{
   height: 25vh;
-  max-width: 1680px;
+  max-width: 1280px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -145,7 +145,7 @@ background-size: cover;
 /*skills area*/
 .skills-info-area{
   height: 25vh;
-  max-width: 1680px;
+  max-width: 1280px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;

@@ -31,7 +31,7 @@ a {
 }
 /*SECTION-ONE HOME PAGE*/
 .whole-section-one{
-  max-width: 1680px;
+  max-width: 1280px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ a {
 
 /*nav area*/
 .first-section-div{
-  max-width: 1680px;
+  max-width: 1280px;
   height: 35px;
   display: flex;
   flex-direction: row;
@@ -75,7 +75,7 @@ a {
 
 /*text area*/
 .second-section-div{
-  max-width: 1680px;
+  max-width: 1280px;
   height: 60vh;
   background-color: #CAEBF2;
   display: flex;
@@ -146,7 +146,7 @@ color: #FF3B3F;
 
 /*triangle area*/
 .third-section-div{
-  max-width: 1680px;
+  max-width: 1280px;
   height: 13vh;
   background-color: #CAEBF2;
   opacity: 1;
@@ -169,7 +169,7 @@ svg{
 
 /*Code for Buttons*/
 .fourth-section-div{
-  max-width: 1680px;
+  max-width: 1280px;
   height: 24.25vh;
   font-weight: 200;
   background-color: white;
@@ -235,3 +235,57 @@ svg{
   justify-content: center;
   align-items: center;
   background-color: #FF3B3F;
+}
+
+
+/*Media Queries*/
+
+@media only screen and (max-height: 866px) {
+
+  .big-text-container{
+  height: 300px;
+  width: 400px;
+  font-weight: 500;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  opacity: 1;
+  }
+
+  /*circles*/
+  .circle-one{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  .circle-two{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  .circle-three{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  .awe-color{
+    color: #FF3B3F;
+  }
+}

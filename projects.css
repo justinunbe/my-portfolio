@@ -16,7 +16,7 @@ background-color: gray;
 
 .section-two-page-container{
   height: 100vh;
-  max-width: 1680px;
+  max-width: 1280px;
   display: flex;
   flex-direction: column;
   background-color: #CAEBF2;
@@ -26,7 +26,7 @@ background-color: gray;
 /*top-horizontal*/
 .internet-and-description-container-one{
   height: 50vh;
-  max-width: 1680px;
+  max-width: 1280px;
   display: flex;
   flex-direction: row;
 }
@@ -36,8 +36,9 @@ background-color: gray;
 height: 100%;
 width: 75vw;
 display: flex;
-justify-content: center;
+justify-content: flex-end;
 align-items: center;
+border: red solid;
 }
 
 /*quadrant two*/
@@ -52,9 +53,10 @@ align-items: center;
 /*bottom horizontal*/
 .internet-and-description-container-two{
   height: 50vh;
-  max-width: 1680px;
+  max-width: 1280px;
   display: flex;
   flex-direction: row;
+  border: green solid;
 }
 
 /*quadrant four*/
@@ -63,7 +65,7 @@ height: 100%;
 width: 75vw;
 display: flex;
 align-items: center;
-margin-top: -100px;
+border: red solid;
 }
 
 /*quadrant three*/
@@ -73,6 +75,7 @@ width: 50vw;
 display: flex;
 justify-content: center;
 align-items: center;
+border: blue solid;
 }
 
 
@@ -219,7 +222,6 @@ font-size: 50px;
 
 /*quadrant three*/
 #description-container-two{
-  margin-top: -150px;
 }
 #link-part-two{
   color: white;
@@ -232,7 +234,7 @@ font-size: 50px;
 /*Navigation Area*/
 .navigation-space{
   height: 145px;
-  max-width: 1680;
+  max-width: 1280px;
   background-color: white;
   display: flex;
   align-items: center;
@@ -293,8 +295,74 @@ font-size: 50px;
 }
 
 
-/*Media Queries*/
 
+
+
+
+/*Media Queries   100 X 167*/
+
+/*Height Media Queries*/
+
+@media only screen and (max-height: 1050px) {
+
+  .internet-full-box-one{
+    height: 350px;
+    width: 586px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .discription-container-one{
+  height: 40%;
+  width: 304px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .discription-title-one{
+  font-size: 44px;
+  }
+
+  .the-description{
+    line-height: 24px;
+  }
+}
+
+
+@media only screen and (max-height: 950px) {
+
+  .discription-container-one{
+  height: 50%;
+  width: 304px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .discription-title-one{
+  font-size: 38px;
+  }
+
+  .the-description{
+    line-height: 22px;
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-height: 860px) {
+
+  .internet-full-box-one{
+    height: 300px;
+    width: 502px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+
+/*Width Media Queries*/
 @media only screen and (max-width: 1150px) {
 
   .internet-full-box-one{
