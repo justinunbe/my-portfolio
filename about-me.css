@@ -417,7 +417,6 @@ align-items: center;
     width: 550px;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
   }
 
   .section-two-pic{
@@ -631,9 +630,9 @@ align-items: center;
     max-width: 1280px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     background-color: white;
     margin: auto;
-    border: black solid;
   }
 
 
@@ -655,17 +654,16 @@ align-items: center;
   /*about me info area*/
   .about-me-info-area{
     height: 70vh;
-    max-width: 1280px;
+    width: 33%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-around;
+    align-items: center;
     background-color: white;
     position: relative;
-    z-index: 7;
-    padding-top: 10px;
+    z-index: 5;
     padding-left: 5px;
     padding-right: 5px;
-    border: red solid;
   }
 
   .section-one-paragraph{
@@ -721,15 +719,16 @@ align-items: center;
   /*about us info area*/
   .about-us-info-area{
     height: 70vh;
-    max-width: 1280px;
+    width: 33%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
     background-color: white;
     position: relative;
-    z-index: 6;
-    display: block;
-    border: blue solid;
+    z-index: 5;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .section-two-paragraph{
@@ -778,9 +777,9 @@ align-items: center;
   /*skills area*/
   .skills-info-area{
     height: 70vh;
-    max-width: 1280px;
+    width: 33%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-around;
     align-items: center;
     background-color: white;
@@ -788,7 +787,6 @@ align-items: center;
     z-index: 5;
     padding-left: 5px;
     padding-right: 5px;
-    border: green solid;
   }
 
   .section-three-paragraph{
@@ -846,8 +844,309 @@ align-items: center;
     position: relative;
     z-index: 5;
     background-color: white;
-    border: blue solid;
     position: absolute;
+  }
+
+  .section-three-circle-pic-container{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+
+  /*SLIDER*/
+
+  .slick-slider{
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slide-one{
+    width: 125px;
+    height: 125px;
+    background-image: url("pics/HTML5_1Color_Black.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .slide-two{
+    width: 125px;
+    height: 125px;
+    background-image: url("pics/css3 no text.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .slide-three{
+    width: 180px;
+    height: 125px;
+    background-image: url("pics/js last try.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .slide-four{
+    width: 125px;
+    height: 125px;
+    background-image: url("pics/jquery-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .slide-five{
+    width: 125px;
+    height: 125px;
+    background-image: url("pics/angular no text.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .slide-six{
+    width: 115px;
+    height: 115px;
+    background-image: url("pics/git color.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+/*Laptop 1/3*/
+@media only screen and (min-height: 600px) {
+
+  /*Full Page*/
+
+  .extra-width-page-three{
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+  }
+  .all-page-three{
+    height: 100vh;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: auto;
+  }
+
+
+
+  /*about me title*/
+  .about-me-title{
+    height: 150px;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 200;
+    display: none;
+  }
+
+
+
+  /*about me info area*/
+  .about-me-info-area{
+    height: 33vh;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    z-index: 7;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .section-one-paragraph{
+    height: 170px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .section-one-p-one{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 10px;
+  }
+  .section-one-p-two{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .section-one-circle-pic-container{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-image: url("pics/about-me.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+
+  .section-one-pic{
+    height: 125px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
+
+  /*about us info area*/
+  .about-us-info-area{
+    height: 33vh;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    z-index: 6;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .section-two-paragraph{
+    height: 170px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-two-pic{
+    height: 125px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-two-p-one{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 10px;
+  }
+  .section-two-p-two{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .section-two-circle-pic-container{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-image: url("pics/about-us.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+
+  /*skills area*/
+  .skills-info-area{
+    height: 33vh;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    z-index: 5;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .section-three-paragraph{
+    height: 170px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .section-three-p-one{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 10px;
+  }
+  .section-three-p-two{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+
+  .section-three-pic{
+    height: 125px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*nav area*/
+  .three-nav-container{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    z-index: 5;
+    background-color: white;
   }
 
   .section-three-circle-pic-container{
@@ -941,6 +1240,608 @@ align-items: center;
 
 
 
+
+
+
+
+
+@media only screen and (min-width: 800px) and (min-height: 600px){
+
+  /*Full Page*/
+
+  .extra-width-page-three{
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+  }
+  .all-page-three{
+    height: 100vh;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: auto;
+  }
+
+
+
+  /*about me title*/
+  .about-me-title{
+    height: 150px;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 200;
+    display: none;
+  }
+
+
+
+  /*about me info area*/
+  .about-me-info-area{
+    height: 33vh;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    z-index: 7;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .section-one-paragraph{
+    height: 170px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .section-one-p-one{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 10px;
+  }
+  .section-one-p-two{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .section-one-circle-pic-container{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-image: url("pics/about-me.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+
+  .section-one-pic{
+    height: 125px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
+
+  /*about us info area*/
+  .about-us-info-area{
+    height: 33vh;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    z-index: 6;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .section-two-paragraph{
+    height: 170px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-two-pic{
+    height: 125px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-two-p-one{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 10px;
+  }
+  .section-two-p-two{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .section-two-circle-pic-container{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-image: url("pics/about-us.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+
+  /*skills area*/
+  .skills-info-area{
+    height: 33vh;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    z-index: 5;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .section-three-paragraph{
+    height: 170px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .section-three-p-one{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 10px;
+  }
+  .section-three-p-two{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+
+  .section-three-pic{
+    height: 125px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*nav area*/
+  .three-nav-container{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    z-index: 5;
+    background-color: white;
+  }
+
+  .section-three-circle-pic-container{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+
+  /*SLIDER*/
+
+  .slick-slider{
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slide-one{
+    width: 125px;
+    height: 125px;
+    background-image: url("pics/HTML5_1Color_Black.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .slide-two{
+    width: 125px;
+    height: 125px;
+    background-image: url("pics/css3 no text.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .slide-three{
+    width: 180px;
+    height: 125px;
+    background-image: url("pics/js last try.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .slide-four{
+    width: 125px;
+    height: 125px;
+    background-image: url("pics/jquery-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .slide-five{
+    width: 125px;
+    height: 125px;
+    background-image: url("pics/angular no text.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .slide-six{
+    width: 115px;
+    height: 115px;
+    background-image: url("pics/git color.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Imac 4k*/
+
+@media only screen and (min-height: 1100px){
+
+
+  /*Full Page*/
+
+  .extra-width-page-three{
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+  }
+  .all-page-three{
+    height: 100vh;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: auto;
+  }
+
+
+
+  /*about me title*/
+  .about-me-title{
+    height: 150px;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 200;
+    display: none;
+  }
+
+
+
+  /*about me info area*/
+  .about-me-info-area{
+    height: 33vh;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: white;
+    position: relative;
+    z-index: 7;
+    padding-right: 80px;
+  }
+
+  .section-one-paragraph{
+    height: 250px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+
+
+  .section-one-pic{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-one-p-one{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    line-height: 30px;
+  }
+  .section-one-p-two{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .section-one-circle-pic-container{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("pics/about-me.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+
+
+  /*about us info area*/
+  .about-us-info-area{
+    height: 33vh;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: white;
+    position: relative;
+    z-index: 6;
+    padding-left: 80px;
+    padding-right: 1px;
+  }
+
+  .section-two-paragraph{
+    height: 250px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+  .section-two-pic{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-two-p-one{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    line-height: 30px;
+  }
+  .section-two-p-two{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .section-two-circle-pic-container{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("pics/about-us.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+
+  /*skills area*/
+  .skills-info-area{
+    height: 33vh;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: white;
+    position: relative;
+    z-index: 5;
+    padding-right: 80px;
+  }
+
+  .section-three-paragraph{
+    height: 250px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+
+  .section-three-pic{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-three-p-one{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    line-height: 30px;
+  }
+  .section-three-p-two{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  /*nav area*/
+  .three-nav-container{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    z-index: 5;
+    background-color: white;
+  }
+
+  .section-three-circle-pic-container{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+
+  /*SLIDER*/
+
+  .slick-slider{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slide-one{
+    width: 300px;
+    height: 200px;
+    background-image: url("pics/HTML5_1Color_Black.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .slide-two{
+    width: 150px;
+    height: 200px;
+    background-image: url("pics/css3 no text.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .slide-three{
+    width: 150px;
+    height: 200px;
+    background-image: url("pics/js last try.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .slide-four{
+    width: 150px;
+    height: 200px;
+    background-image: url("pics/jquery-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .slide-five{
+    width: 150px;
+    height: 200px;
+    background-image: url("pics/angular no text.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .slide-six{
+    width: 150px;
+    height: 200px;
+    background-image: url("pics/git color.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+
+}
 
 
 
@@ -1082,7 +1983,6 @@ align-items: center;
     width: 550px;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
   }
 
   .section-two-pic{
@@ -1395,7 +2295,6 @@ align-items: center;
     width: 550px;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
   }
 
   .section-two-pic{
@@ -1735,7 +2634,6 @@ align-items: center;
     width: 550px;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
   }
 
   .section-two-pic{

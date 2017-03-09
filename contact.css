@@ -111,6 +111,461 @@ font-size: 40px;
 /*Media Queries*/
 
 
+/*laptop 1/4*/
+
+@media only screen and (min-width: 1px), screen and (min-height: 1px) {
+
+
+
+
+  /*full page*/
+  .extra-width-page-five{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+  }
+  .all-page-four{
+    height: 100vh;
+    max-width: 1280px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    margin: auto;
+  }
+
+
+
+
+  /*Title Container*/
+  .contact-container{
+    height: 80px;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    position: relative;
+    z-index: 20;
+  }
+
+  .contact-para-container{
+    height: 50px;
+    width: 200px;
+  position: relative;
+  z-index: 20;
+  }
+
+
+
+
+  /*contact info container*/
+  .contact-info-container{
+    height: 70%;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .circle-contact-pic{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: url("pics/imac-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle-contact-pic:after {
+      content: "";
+      display: block;
+      background: radial-gradient(circle, rgba(255,255,255,.6) 0%,rgba(255,255,255,1) 68%,rgba(255,255,255,1) 100%);
+      border-radius: 50%;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+  }
+
+  .contact-info-on-circle{
+    height: 200px;
+    width: 320px;
+    font-size: 8px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .email-container{
+  height: 100px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  }
+
+  .other-links-container{
+    height: 50%;
+    width: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  /*bottom nav container*/
+  .bottom-nav-container{
+    height: 145px;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    z-index: 20;
+  }
+
+}
+
+
+
+@media only screen and (max-height: 599px) and (min-width: 500px) {
+
+  .circle-contact-pic{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background-image: url("pics/imac-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-height: 599px) and (min-width: 730px) {
+
+  .circle-contact-pic{
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    background-image: url("pics/imac-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+}
+
+
+@media only screen and (max-height: 599px) and (min-width: 990px) {
+
+  .circle-contact-pic{
+    height: 1000px;
+    width: 1000px;
+    border-radius: 50%;
+    background-image: url("pics/imac-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+}
+
+
+@media only screen and (min-height: 600px) and (min-width: 550px) {
+
+  .circle-contact-pic{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background-image: url("pics/imac-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-info-on-circle{
+    height: 200px;
+    width: 320px;
+    font-size: 10px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .email-container{
+  height: 100px;
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  }
+
+
+
+}
+
+
+
+
+@media only screen and (min-height: 600px) and (min-width: 780px) {
+
+  .circle-contact-pic{
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    background-image: url("pics/imac-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-info-on-circle{
+    height: 200px;
+    width: 320px;
+    font-size: 10px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .email-container{
+  height: 100px;
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  }
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-height: 600px) and (min-width: 950px) {
+
+  .circle-contact-pic{
+    height: 1000px;
+    width: 1000px;
+    border-radius: 50%;
+    background-image: url("pics/imac-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-info-on-circle{
+    height: 200px;
+    width: 320px;
+    font-size: 10px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .email-container{
+  height: 100px;
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  }
+
+
+
+}
+
+
+
+/*Imac 4k*/
+
+@media only screen and (min-height: 1100px) {
+
+
+
+  /*full page*/
+  .extra-width-page-five{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+  }
+  .all-page-four{
+    height: 100vh;
+    max-width: 1280px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    margin: auto;
+  }
+
+  /*Title Container*/
+  .contact-container{
+    height: 300px;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    position: relative;
+    z-index: 20;
+  }
+
+  .contact-para-container{
+    height: 100px;
+    width: 300px;
+  position: relative;
+  z-index: 20;
+  }
+  /*contact info container*/
+  .contact-info-container{
+    height: 70%;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .circle-contact-pic{
+    height: 1300px;
+    width: 1300px;
+    border-radius: 50%;
+    background-image: url("pics/imac-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle-contact-pic:after {
+      content: "";
+      display: block;
+      background: radial-gradient(circle, rgba(255,255,255,.6) 0%,rgba(255,255,255,1) 68%,rgba(255,255,255,1) 100%);
+      border-radius: 50%;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+  }
+
+  .contact-info-on-circle{
+    height: 300px;
+    width: 650px;
+    font-size: 15px;
+    position: relative;
+    z-index: 10;
+  }
+
+  .email-container{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;;
+  align-items: center;
+  font-size: 40px;
+  }
+
+  .other-links-container{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  /*bottom nav container*/
+  .bottom-nav-container{
+    height: 145px;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    z-index: 20;
+  }
+
+
+
+}
+
+
+
+
 
 /*Iphone 4*/
 
