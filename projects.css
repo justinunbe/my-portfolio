@@ -369,7 +369,7 @@ font-size: 45px;
 
   /*quadrant one*/
   .internet-page-container-one{
-  height: 65%;
+  height: 60%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -378,7 +378,7 @@ font-size: 45px;
 
   /*quadrant two*/
   .internet-page-description-container-one{
-  height: 35%;
+  height: 40%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -518,11 +518,14 @@ font-size: 45px;
   #margin-for-arrow{
     margin-left: -17px;
   }
-  /*Quadrant two*/
+
+
+
+  /*DISCRIPTION ONE*/
 
   .discription-container-one{
     height: 100%;
-    width: 80%;
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -536,16 +539,16 @@ font-size: 45px;
   font-size: 15px;
   }
   .the-description{
-    height: 50px;
+    height: 70px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 15px;
+    line-height: 15px;
   }
   .project-link-one{
-    height:25px;
+    height:35px;
     width: 120px;
     display: flex;
     justify-content: center;
@@ -555,6 +558,9 @@ font-size: 45px;
     border-radius: 5px;
     background: #A9A9A9;
   }
+
+
+
 
   /*quadrant three*/
   #description-container-two{
