@@ -647,8 +647,8 @@ font-size: 45px;
   }
 
 
-/*nav circles*/
-.circle-container-one{
+  /*nav circles*/
+  .circle-container-one{
   height: 60px;
   width: 80px;
   display: flex;
@@ -656,9 +656,9 @@ font-size: 45px;
   align-items: center;
   justify-content: space-around;
   font-size: 15px;
-}
+  }
 
-.circle-container-two{
+  .circle-container-two{
   height: 60px;
   width: 80px;
   display: flex;
@@ -666,9 +666,9 @@ font-size: 45px;
   align-items: center;
   justify-content: space-around;
   font-size: 15px;
-}
+  }
 
-.circle-container-three{
+  .circle-container-three{
   height: 60px;
   width: 80px;
   display: flex;
@@ -676,9 +676,9 @@ font-size: 45px;
   align-items: center;
   justify-content: space-around;
   font-size: 15px;
-}
+  }
 
-.circle-one{
+  .circle-one{
   height: 100px;
   width: 100px;
   border-radius: 50px;
@@ -686,9 +686,9 @@ font-size: 45px;
   justify-content: center;
   align-items: center;
   font-size: 10px;
-}
+  }
 
-.circle-two{
+  .circle-two{
   height: 100px;
   width: 100px;
   border-radius: 50px;
@@ -696,9 +696,9 @@ font-size: 45px;
   justify-content: center;
   align-items: center;
   font-size: 10px;
-}
+  }
 
-.circle-three{
+  .circle-three{
   height: 100px;
   width: 100px;
   border-radius: 50px;
@@ -706,7 +706,7 @@ font-size: 45px;
   justify-content: center;
   align-items: center;
   font-size: 10px;
-}
+  }
 
 }
 
@@ -1112,7 +1112,8 @@ font-size: 45px;
 
 
 /*Apple Half*/
-@media only screen and (min-width: 600px) {
+
+@media only screen and (min-width: 700px) and (min-height: 600px) {
 
   .internet-full-box-one{
     height: 260px;
@@ -1137,7 +1138,7 @@ font-size: 45px;
 
 
 /*Apple full*/
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1100px) and (min-height: 600px) {
 
 
   /*top-horizontal*/
