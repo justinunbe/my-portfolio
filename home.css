@@ -39,40 +39,11 @@ a {
 }
 
 
-/*nav area*/
-.first-section-div{
-position: relative;
-top: 0px;
-left: 0px;
-align-self: flex-start;
-width: 300px;
-color: white;
-font-size: 30px;
-}
-
-.nav-logo-container{
-  height: 35px;
-  width: 760px;
-
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding-left: 20px;
-}
-
-.nav-links-container{
-  height: 35px;
-  width: 470px;
-
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
 
 /*text area*/
 .second-section-div{
   max-width: 1280px;
-  height: 60vh;
+  height: 75vh;
   background-color: #CAEBF2;
   display: flex;
   justify-content: center;
@@ -163,10 +134,10 @@ svg{
 }
 
 
-/*Code for Buttons*/
+/*third section*/
 .fourth-section-div{
   max-width: 1280px;
-  height: 30vh;
+  height: 15vh;
   font-weight: 200;
   background-color: white;
   display: flex;
@@ -210,7 +181,6 @@ svg{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FF3B3F;
 }
 
 .circle-two{
@@ -220,7 +190,6 @@ svg{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FF3B3F;
 }
 
 .circle-three{
@@ -230,19 +199,127 @@ svg{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FF3B3F;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Media Queries*/
 
-@media only screen and (max-height: 866px) {
+
+
+
+/*Apple Laptop Fourth*/
+
+@media only screen and (min-width: 1px), screen and (min-height: 1px) {
+  /*extra-area*/
+
+  .extra-room-slide-one{
+    width: 100vw;
+    height: 100vw;
+    background-color: gray;
+  }
+  /*SECTION-ONE HOME PAGE*/
+  .whole-section-one{
+    max-width: 1280px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+
+  /*first section*/
+  .first-section-home-page{
+    max-width: 1280px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #CAEBF2;
+    position: relative;
+  }
+
+  .my-name{
+    position: relative;
+    color: white;
+    font-size: 25px;
+    z-index: 10;
+  }
+
+  /*second section*/
+  .second-section-div{
+    max-width: 1280px;
+    height: 75vh;
+    background-color: #CAEBF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    position: relative;
+  }
+
+  .pic-circle-filter{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pics/skyscrapers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*filter: grayscale(100%);*/
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+  }
+
+  .pic-circle-filter:after {
+      content: "";
+      display: block;
+      background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(202,235,242,1) 70%,rgba(202,235,242,1) 110%);
+      border-radius: 50%;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+  }
+
+  .filter-cover{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: .7;
+    background-color: #CAEBF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
 
   .big-text-container{
-  height: 300px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -250,7 +327,404 @@ svg{
   opacity: 1;
   }
 
-  /*circles*/
+  .sleek-span{
+    font-weight: 200;
+  }
+
+  .modern-span{
+  font-weight: 200;
+  color: #FF3B3F;
+  }
+
+
+  /*triangle area*/
+  .third-section-div{
+    max-width: 1280px;
+    height: 13vh;
+    background-color: #CAEBF2;
+    opacity: 1;
+  }
+
+
+  /*awesome font code*/
+  .awe-color{
+    color: #FF3B3F;
+  }
+
+
+  /*Code for SVG Triangle*/
+  svg{
+    fill: white;
+    z-index: 90;
+    position: relative;
+  }
+
+
+  /*third section*/
+  .fourth-section-div{
+    max-width: 1280px;
+    height: 30vh;
+    font-weight: 200;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 90;
+  }
+
+  .circle-container-one{
+    height: 70px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .circle-container-two{
+    height: 70px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .circle-container-three{
+    height: 70px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .circle-one{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .circle-two{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .circle-three{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*Apple Half*/
+@media only screen and (min-width: 511px) {
+
+
+  .big-text-container{
+    height: 200px;
+    width: 200px;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    opacity: 1;
+    }
+
+  .pic-circle-filter{
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pics/skyscrapers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*filter: grayscale(100%);*/
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+  }
+
+
+
+}
+
+
+/*Apple Three Quarters*/
+
+@media only screen and (min-width: 800px) {
+
+
+  .big-text-container{
+    height: 200px;
+    width: 200px;
+    font-weight: 500;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    opacity: 1;
+    }
+
+  .pic-circle-filter{
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pics/skyscrapers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*filter: grayscale(100%);*/
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+  }
+
+
+
+}
+
+
+
+/*Apple Full*/
+
+@media only screen and (min-width: 1000px) {
+
+
+  .big-text-container{
+    height: 200px;
+    width: 200px;
+    font-weight: 500;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    opacity: 1;
+    }
+
+  .pic-circle-filter{
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pics/skyscrapers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*filter: grayscale(100%);*/
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Imac 4k*/
+
+@media only screen and (min-height: 1000px) {
+
+  /*extra-area*/
+
+  .extra-room-slide-one{
+    width: 100vw;
+    height: 100vw;
+    background-color: gray;
+  }
+  /*SECTION-ONE HOME PAGE*/
+  .whole-section-one{
+    max-width: 1280px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+
+
+  /*text area*/
+  .second-section-div{
+    max-width: 1280px;
+    height: 75vh;
+    background-color: #CAEBF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    position: relative;
+  }
+
+  .pic-circle-filter{
+    width: 1400px;
+    height: 1400px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pics/skyscrapers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*filter: grayscale(100%);*/
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+  }
+
+  .pic-circle-filter:after {
+      content: "";
+      display: block;
+      background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(202,235,242,1) 70%,rgba(202,235,242,1) 110%);
+      border-radius: 50%;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+  }
+
+  .filter-cover{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: .7;
+    background-color: #CAEBF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .big-text-container{
+  height: 300px;
+  width: 500px;
+  font-weight: 500;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  opacity: 1;
+  }
+
+  .sleek-span{
+    font-weight: 200;
+  }
+
+  .modern-span{
+  font-weight: 200;
+  color: #FF3B3F;
+  }
+
+  /*triangle area*/
+  .third-section-div{
+    max-width: 1280px;
+    height: 13vh;
+    background-color: #CAEBF2;
+    opacity: 1;
+  }
+
+
+  /*awesome font code*/
+  .awe-color{
+    color: #FF3B3F;
+  }
+
+
+  /*Code for SVG Triangle*/
+  svg{
+    fill: white;
+    z-index: 90;
+    position: relative;
+  }
+
+
+  /*third section*/
+  .fourth-section-div{
+    max-width: 1280px;
+    height: 15vh;
+    font-weight: 200;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 90;
+  }
+
+  .circle-container-one{
+    height: 120px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+  }
+
+  .circle-container-two{
+    height: 120px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 29px;
+  }
+
+  .circle-container-three{
+    height: 120px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+  }
+
   .circle-one{
     height: 100px;
     width: 100px;
@@ -258,8 +732,7 @@ svg{
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: .1;
-    background-color: white;
+    font-size: 17px;
   }
 
   .circle-two{
@@ -269,7 +742,7 @@ svg{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    font-size: 17px;
   }
 
   .circle-three{
@@ -279,10 +752,1086 @@ svg{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    font-size: 17px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/*Iphone 4*/
+@media only screen and (height: 480px) {
+
+  /*extra-area*/
+
+  .extra-room-slide-one{
+    width: 100vw;
+    height: 100vw;
+    background-color: gray;
+  }
+  /*SECTION-ONE HOME PAGE*/
+  .whole-section-one{
+    max-width: 1280px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
   }
 
+
+
+  /*first section*/
+  .first-section-home-page{
+    max-width: 1280px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #CAEBF2;
+    position: relative;
+  }
+
+  .my-name{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    z-index: 10;
+  }
+
+  /*second section*/
+  .second-section-div{
+    max-width: 1280px;
+    height: 75vh;
+    background-color: #CAEBF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    position: relative;
+  }
+
+  .pic-circle-filter{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pics/skyscrapers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*filter: grayscale(100%);*/
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+  }
+
+  .pic-circle-filter:after {
+      content: "";
+      display: block;
+      background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(202,235,242,1) 70%,rgba(202,235,242,1) 110%);
+      border-radius: 50%;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+  }
+
+  .filter-cover{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: .7;
+    background-color: #CAEBF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .big-text-container{
+  height: 200px;
+  width: 200px;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  opacity: 1;
+  }
+  .my-name{
+
+  }
+
+  .sleek-span{
+    font-weight: 200;
+  }
+
+  .modern-span{
+  font-weight: 200;
+  color: #FF3B3F;
+  }
+
+
+  /*triangle area*/
+  .third-section-div{
+    max-width: 1280px;
+    height: 13vh;
+    background-color: #CAEBF2;
+    opacity: 1;
+  }
+
+
+  /*awesome font code*/
   .awe-color{
     color: #FF3B3F;
+  }
+
+
+  /*Code for SVG Triangle*/
+  svg{
+    fill: white;
+    z-index: 90;
+    position: relative;
+  }
+
+
+  /*third section*/
+  .fourth-section-div{
+    max-width: 1280px;
+    height: 30vh;
+    font-weight: 200;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 90;
+  }
+
+  .circle-container-one{
+    height: 70px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .circle-container-two{
+    height: 70px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .circle-container-three{
+    height: 70px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .circle-one{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .circle-two{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .circle-three{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+
+
+
+}
+
+
+/*Iphone 5*/
+
+@media only screen and (height: 568px) {
+
+  /*extra-area*/
+
+  .extra-room-slide-one{
+    width: 100vw;
+    height: 100vw;
+    background-color: gray;
+  }
+  /*SECTION-ONE HOME PAGE*/
+  .whole-section-one{
+    max-width: 1280px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+
+
+  /*first section*/
+  .first-section-home-page{
+    max-width: 1280px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #CAEBF2;
+    position: relative;
+  }
+
+  .my-name{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    z-index: 10;
+  }
+
+  /*second section*/
+  .second-section-div{
+    max-width: 1280px;
+    height: 75vh;
+    background-color: #CAEBF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    position: relative;
+  }
+
+  .pic-circle-filter{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pics/skyscrapers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*filter: grayscale(100%);*/
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+  }
+
+  .pic-circle-filter:after {
+      content: "";
+      display: block;
+      background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(202,235,242,1) 70%,rgba(202,235,242,1) 110%);
+      border-radius: 50%;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+  }
+
+  .filter-cover{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: .7;
+    background-color: #CAEBF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .big-text-container{
+  height: 200px;
+  width: 200px;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  opacity: 1;
+  }
+  .my-name{
+
+  }
+
+  .sleek-span{
+    font-weight: 200;
+  }
+
+  .modern-span{
+  font-weight: 200;
+  color: #FF3B3F;
+  }
+
+
+  /*triangle area*/
+  .third-section-div{
+    max-width: 1280px;
+    height: 13vh;
+    background-color: #CAEBF2;
+    opacity: 1;
+  }
+
+
+  /*awesome font code*/
+  .awe-color{
+    color: #FF3B3F;
+  }
+
+
+  /*Code for SVG Triangle*/
+  svg{
+    fill: white;
+    z-index: 90;
+    position: relative;
+  }
+
+
+  /*third section*/
+  .fourth-section-div{
+    max-width: 1280px;
+    height: 30vh;
+    font-weight: 200;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 90;
+  }
+
+  .circle-container-one{
+    height: 70px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .circle-container-two{
+    height: 70px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .circle-container-three{
+    height: 70px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .circle-one{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .circle-two{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .circle-three{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Iphone 6*/
+@media only screen and (height: 667px) {
+  /*extra-area*/
+
+  .extra-room-slide-one{
+    width: 100vw;
+    height: 100vw;
+    background-color: gray;
+  }
+  /*SECTION-ONE HOME PAGE*/
+  .whole-section-one{
+    max-width: 1280px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+
+  /*first section*/
+  .first-section-home-page{
+    max-width: 1280px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #CAEBF2;
+    position: relative;
+  }
+
+  .my-name{
+    position: relative;
+    color: white;
+    font-size: 25px;
+    z-index: 10;
+  }
+
+  /*second section*/
+  .second-section-div{
+    max-width: 1280px;
+    height: 75vh;
+    background-color: #CAEBF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    position: relative;
+  }
+
+  .pic-circle-filter{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pics/skyscrapers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*filter: grayscale(100%);*/
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+  }
+
+  .pic-circle-filter:after {
+      content: "";
+      display: block;
+      background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(202,235,242,1) 70%,rgba(202,235,242,1) 110%);
+      border-radius: 50%;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+  }
+
+  .filter-cover{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: .7;
+    background-color: #CAEBF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .big-text-container{
+  height: 200px;
+  width: 200px;
+  font-weight: 500;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  opacity: 1;
+  }
+  .my-name{
+
+  }
+
+  .sleek-span{
+    font-weight: 200;
+  }
+
+  .modern-span{
+  font-weight: 200;
+  color: #FF3B3F;
+  }
+
+
+  /*triangle area*/
+  .third-section-div{
+    max-width: 1280px;
+    height: 13vh;
+    background-color: #CAEBF2;
+    opacity: 1;
+  }
+
+
+  /*awesome font code*/
+  .awe-color{
+    color: #FF3B3F;
+  }
+
+
+  /*Code for SVG Triangle*/
+  svg{
+    fill: white;
+    z-index: 90;
+    position: relative;
+  }
+
+
+  /*third section*/
+  .fourth-section-div{
+    max-width: 1280px;
+    height: 30vh;
+    font-weight: 200;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 90;
+  }
+
+  .circle-container-one{
+    height: 70px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .circle-container-two{
+    height: 70px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .circle-container-three{
+    height: 70px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .circle-one{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .circle-two{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .circle-three{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Ipad Mini*/
+@media only screen and (height: 1024px) {
+  /*extra-area*/
+
+  .extra-room-slide-one{
+    width: 100vw;
+    height: 100vw;
+    background-color: gray;
+  }
+  /*SECTION-ONE HOME PAGE*/
+  .whole-section-one{
+    max-width: 1280px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+
+  /*first section*/
+  .first-section-home-page{
+    max-width: 1280px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #CAEBF2;
+    position: relative;
+  }
+
+  .my-name{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    z-index: 10;
+  }
+
+  /*second section*/
+  .second-section-div{
+    max-width: 1280px;
+    height: 75vh;
+    background-color: #CAEBF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    position: relative;
+  }
+
+  .pic-circle-filter{
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pics/skyscrapers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*filter: grayscale(100%);*/
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+  }
+
+  .pic-circle-filter:after {
+      content: "";
+      display: block;
+      background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(202,235,242,1) 70%,rgba(202,235,242,1) 110%);
+      border-radius: 50%;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+  }
+
+  .filter-cover{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: .7;
+    background-color: #CAEBF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .big-text-container{
+  height: 250px;
+  width: 300px;
+  font-weight: 500;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  opacity: 1;
+  }
+
+  .sleek-span{
+    font-weight: 200;
+  }
+
+  .modern-span{
+  font-weight: 200;
+  color: #FF3B3F;
+  }
+
+
+  /*triangle area*/
+  .third-section-div{
+    max-width: 1280px;
+    height: 13vh;
+    background-color: #CAEBF2;
+    opacity: 1;
+  }
+
+
+  /*awesome font code*/
+  .awe-color{
+    color: #FF3B3F;
+  }
+
+
+  /*Code for SVG Triangle*/
+  svg{
+    fill: white;
+    z-index: 90;
+    position: relative;
+  }
+
+
+  /*third section*/
+  .fourth-section-div{
+    max-width: 1280px;
+    height: 30vh;
+    font-weight: 200;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 90;
+  }
+
+  .circle-container-one{
+    height: 70px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+  }
+
+  .circle-container-two{
+    height: 70px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+  }
+
+  .circle-container-three{
+    height: 70px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+  }
+
+  .circle-one{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .circle-two{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .circle-three{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+/*Ipad Pro*/
+@media only screen and (height: 1366px) {
+  /*extra-area*/
+
+  .extra-room-slide-one{
+    width: 100vw;
+    height: 100vw;
+    background-color: gray;
+  }
+  /*SECTION-ONE HOME PAGE*/
+  .whole-section-one{
+    max-width: 1280px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+
+  /*first section*/
+  .first-section-home-page{
+    max-width: 1280px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #CAEBF2;
+    position: relative;
+  }
+
+  .my-name{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    z-index: 10;
+  }
+
+  /*second section*/
+  .second-section-div{
+    max-width: 1280px;
+    height: 75vh;
+    background-color: #CAEBF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    position: relative;
+  }
+
+  .pic-circle-filter{
+    width: 1100px;
+    height: 1100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pics/skyscrapers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*filter: grayscale(100%);*/
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+  }
+
+  .pic-circle-filter:after {
+      content: "";
+      display: block;
+      background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(202,235,242,1) 70%,rgba(202,235,242,1) 110%);
+      border-radius: 50%;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+  }
+
+  .filter-cover{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: .7;
+    background-color: #CAEBF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .big-text-container{
+  height: 300px;
+  width: 450px;
+  font-weight: 500;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  opacity: 1;
+  }
+
+  .sleek-span{
+    font-weight: 200;
+  }
+
+  .modern-span{
+  font-weight: 200;
+  color: #FF3B3F;
+  }
+
+
+  /*triangle area*/
+  .third-section-div{
+    max-width: 1280px;
+    height: 13vh;
+    background-color: #CAEBF2;
+    opacity: 1;
+  }
+
+
+  /*awesome font code*/
+  .awe-color{
+    color: #FF3B3F;
+  }
+
+
+  /*Code for SVG Triangle*/
+  svg{
+    fill: white;
+    z-index: 90;
+    position: relative;
+  }
+
+
+  /*third section*/
+  .fourth-section-div{
+    max-width: 1280px;
+    height: 30vh;
+    font-weight: 200;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 90;
+  }
+
+  .circle-container-one{
+    height: 110px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .circle-container-two{
+    height: 110px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .circle-container-three{
+    height: 110px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .circle-one{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+
+  .circle-two{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+
+  .circle-three{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
   }
 }

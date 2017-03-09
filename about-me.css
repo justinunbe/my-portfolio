@@ -42,7 +42,7 @@
   padding-top: 50px;
   background-color: white;
   position: relative;
-  z-index: 6;
+  z-index: 7;
 }
 
 .section-one-paragraph{
@@ -103,7 +103,7 @@ background-size: cover;
   padding-right: 100px;
   background-color: white;
   position: relative;
-  z-index: 5;
+  z-index: 6;
 }
 
 .section-two-paragraph{
@@ -292,182 +292,10 @@ align-items: center;
 
 /*Media Queries*/
 
-@media only screen and (max-height: 950px) {
 
-  .section-one-circle-pic-container{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-image: url("pics/about-me.PNG");
-  background-position: center;
-  background-size: cover;
-  }
 
-  .section-two-circle-pic-container{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-image: url("pics/about-us.PNG");
-  background-position: center;
-  background-size: cover;
-  }
 
-  .slick-slider{
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  /*paragraph*/
-  .section-one-p-one{
-    height: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 31px;
-    line-height: 26px;
-  }
-  .section-one-p-two{
-    height: 70%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    line-height: 26px;
-  }
-
-  .section-two-p-one{
-    height: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 31px;
-    line-height: 26px;
-  }
-  .section-two-p-two{
-    height: 70%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    line-height: 26px;
-  }
-
-  .section-three-p-one{
-    height: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 31px;
-    line-height: 26px;
-  }
-  .section-three-p-two{
-    height: 70%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    line-height: 26px;
-  }
-
-}
-
-@media only screen and (max-height: 800px) {
-
-  .section-one-circle-pic-container{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-image: url("pics/about-me.PNG");
-  background-position: center;
-  background-size: cover;
-  }
-
-  .section-two-circle-pic-container{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-image: url("pics/about-us.PNG");
-  background-position: center;
-  background-size: cover;
-  }
-
-  .slick-slider{
-    width: 160px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  /*paragraph*/
-  .section-one-p-one{
-    height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 23px;
-    line-height: 18px;
-  }
-  .section-one-p-two{
-    height: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    line-height: 18px;
-  }
-
-  .section-two-p-one{
-    height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 23px;
-    line-height: 18px;
-  }
-  .section-two-p-two{
-    height: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    line-height: 18px;
-  }
-
-  .section-three-p-one{
-    height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 23px;
-    line-height: 18px;
-  }
-  .section-three-p-two{
-    height: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    line-height: 18px;
-  }
-
-}
-
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1150px), screen and (max-height: 950px) {
 /*circle*/
   .section-one-circle-pic-container{
   width: 200px;
@@ -556,7 +384,7 @@ align-items: center;
 
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px), screen and (max-height: 870px) {
 /*circle*/
   .section-one-circle-pic-container{
   width: 175px;
@@ -643,7 +471,181 @@ align-items: center;
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 850px), screen and (max-height: 800px) {
+ /*circle*/
+  .section-one-circle-pic-container{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url("pics/about-me.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+  .section-two-circle-pic-container{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url("pics/about-us.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+  .slick-slider{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*paragraph*/
+  .section-one-p-one{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    line-height: 18px;
+  }
+  .section-one-p-two{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .section-two-p-one{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    line-height: 18px;
+  }
+  .section-two-p-two{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .section-three-p-one{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    line-height: 18px;
+  }
+  .section-three-p-two{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+
+@media only screen and (max-width: 850px), screen and (max-height: 800px) {
+ /*circle*/
+  .section-one-circle-pic-container{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url("pics/about-me.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+  .section-two-circle-pic-container{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url("pics/about-us.PNG");
+  background-position: center;
+  background-size: cover;
+  }
+
+  .slick-slider{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*paragraph*/
+  .section-one-p-one{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    line-height: 18px;
+  }
+  .section-one-p-two{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .section-two-p-one{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    line-height: 18px;
+  }
+  .section-two-p-two{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .section-three-p-one{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    line-height: 18px;
+  }
+  .section-three-p-two{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+
+@media only screen and (max-width: 320px), screen and (max-height: 480px) {
  /*circle*/
   .section-one-circle-pic-container{
   width: 150px;
